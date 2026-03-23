@@ -7,26 +7,6 @@ repositories you have contributed to, but do not own.
 Generated images automatically switch between GitHub light theme and GitHub
 dark theme.
 
-## Background
-
-When someone views a profile on GitHub, it is often because they are curious
-about a user's open source projects and contributions. Unfortunately, that
-user's stars, forks, and pinned repositories do not necessarily reflect the
-contributions they make to private repositories. The data likewise does not
-present a complete picture of the user's total contributions beyond the current
-year.
-
-This project aims to collect a variety of profile and repository statistics
-using the GitHub API. It then generates images that can be displayed in
-repository READMEs, or in a user's [Profile
-README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-
-Since the project runs on GitHub Actions, no server is required to regularly
-regenerate the images with updated statistics. Likewise, since the user runs
-the analysis code themselves via GitHub Actions, they can use their GitHub
-access token to collect statistics on private repositories that an external
-service would be unable to access.
-
 ## Disclaimer
 
 If the project is used with an access token that has sufficient permissions to
